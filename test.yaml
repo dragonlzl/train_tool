@@ -1,0 +1,8 @@
+names:
+  0: '1'
+  1: '333'
+  2: '2'
+path: ../datasets/coco128
+test: null
+train: images/train2017
+val: images/train2017

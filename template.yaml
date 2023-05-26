@@ -1,0 +1,6 @@
+names:
+  0: person
+path: ../datasets/coco128
+test: null
+train: images/train2017
+val: images/train2017

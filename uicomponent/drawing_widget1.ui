@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>417</width>
+    <height>69</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:black; opacity:0.5</string>
+  </property>
+  <widget class="QPushButton" name="box_selection">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    .QPushButton {
+      color: white; 
+      font-family: 'Microsoft YaHei'; 
+      font-size: 15px; 
+      letter-spacing: 2px; 
+      font-weight: bold;
+    }
+
+    .QPushButton:focus { 
+      background-color: white; 
+      color: black; 
+      border: 2px solid gray; 
+      border-radius: 10px; 
+      border-color: none;
+    }
+ </string>
+   </property>
+   <property name="text">
+    <string>框选</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>164</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    .QPushButton {
+      color: white; 
+      font-family: 'Microsoft YaHei'; 
+      font-size: 15px; 
+      letter-spacing: 2px; 
+      font-weight: bold;
+    }
+
+    .QPushButton:focus { 
+      background-color: white; 
+      color: black; 
+      border: 2px solid gray; 
+      border-radius: 10px; 
+      border-color: none;
+    }
+ </string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>294</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    .QPushButton {
+      color: white; 
+      font-family: 'Microsoft YaHei'; 
+      font-size: 15px; 
+      letter-spacing: 2px; 
+      font-weight: bold;
+    }
+
+    .QPushButton:focus { 
+      background-color: white; 
+      color: black; 
+      border: 2px solid gray; 
+      border-radius: 10px; 
+      border-color: none;
+    }
+ </string>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
